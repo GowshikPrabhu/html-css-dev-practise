@@ -14,7 +14,6 @@ body {
   top: 0;
   left: 0;
   bottom: 0;
-  display: none;
 }
 .company-name {
   font-size: 36px;
@@ -42,13 +41,20 @@ body {
   color: #202020;
 }
 .container {
-  /* margin-left: 300px; */
+  margin-left: 300px;
   padding-left: 20px;
 }
 .container-title {
   font-size: 60px;
 }
-.showcase h2 {
+.container section {
+  margin-bottom: 50px;
+}
+.container section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.section-title {
   font-size: 40px;
   color: #f44336;
   margin: 0;
@@ -70,9 +76,120 @@ body {
   width: 48%;
   height: auto;
   margin: 0 10px 5px 0;
-  opacity: 0.7;
+  opacity: 0.8;
   cursor: pointer;
 }
 .image-container img:hover {
   opacity: 1;
+}
+.designers p:nth-child(5) {
+  font-weight: 600;
+}
+.designers .card-container {
+  display: flex;
+  flex-direction: row;
+}
+.designers .card {
+  width: 300px;
+  height: 350px;
+  background-color: #eeeeee;
+  margin: 10px;
+}
+.designers .card img {
+  width: 100%;
+  height: 50%;
+}
+.designers .card .card-info {
+  margin: 0;
+  height: 45%;
+  padding: 0 5px 10px 5px;
+}
+.designers .card .card-info p {
+  margin: 0;
+  margin: 6px;
+}
+.designers .card .card-info p:first-child {
+  color: #000000;
+  font-size: 24px;
+}
+.designers .card .card-info p:nth-child(2) {
+  color: #777777;
+  font-size: 16px;
+}
+.price-table-container {
+  display: flex;
+  flex-direction: row;
+}
+.price-table {
+  width: 300px;
+  background-color: #eeeeee;
+  text-align: center;
+  margin: auto;
+}
+.price-table div {
+  width: 100%;
+  padding: 20px;
+}
+.price-table div:first-child {
+  background-color: #777777;
+  color: #ffffff;
+  font-size: 20px;
+}
+.price-table.red div:first-child {
+  background-color: #f44336;
+}
+.price-table div span {
+  display: block;
+  line-height: 25px;
+}
+.price-table div span:first-child {
+  font-size: 20px;
+  font-weight: 600;
+}
+.price-table div span:last-child {
+  font-size: 16px;
+  color: #777777;
+}
+.price-table div button {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: white;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.price-table.red div button {
+  background-color: #f44336;
+  color: white;
+}
+.price-table div button:hover {
+  background-color: #111111;
+  color: white;
+}
+form label {
+  font-size: 17px;
+}
+form input {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 1px solid #aaaaaa;
+}
+form button {
+  width: 95%;
+  border: 0;
+  outline: none;
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+}
+form button:hover {
+  background-color: #111111;
+  color: white;
+}
+.my-class {
+  font-size: 32px;
+  color: #5189f1;
 }

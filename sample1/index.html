@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Space Ride</title>
   </head>
@@ -14,10 +20,11 @@
       <div class="menu-contents">
         <a class="menu" href="#">Home</a>
         <a class="menu" href="#showcase">Showcase</a>
-        <a class="menu" href="#">Services</a>
-        <a class="menu" href="#">Designers</a>
-        <a class="menu" href="#">Packages</a>
-        <a class="menu" href="#">Contact</a>
+        <a class="menu" href="#service">Services</a>
+        <a class="menu" href="#desingers">Designers</a>
+        <a class="menu" href="#package">Packages</a>
+        <a class="menu" href="#contact">Contact</a>
+        <a href="https://www.google.com" target="_blank">Google</a>
       </div>
     </aside>
 
@@ -25,8 +32,9 @@
     <div class="container">
       <h1 class="container-title">Interior Design</h1>
 
+      <!--Showcase section -->
       <section id="showcase" class="showcase">
-        <h2>Showcase</h2>
+        <h2 class="section-title">Showcase</h2>
         <div class="divider"></div>
         <div class="image-container">
           <img
@@ -52,6 +60,150 @@
           />
         </div>
       </section>
+
+      <!--Services section-->
+      <section id="service" class="service">
+        <h2 class="section-title">Service</h2>
+        <div class="divider"></div>
+        <p>
+          We are a interior design service that focus on what's best for your
+          home and what's best for you!
+        </p>
+        <p>
+          Some text about our services - what we do and what we offer. We are
+          lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat.
+        </p>
+      </section>
+
+      <!--Designers section-->
+      <section id="designers" class="designers">
+        <h2 class="section-title">Designers</h2>
+        <div class="divider"></div>
+        <p>The best team in the world.</p>
+        <p>
+          We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <p>Our designers are thoughtfully chosen:</p>
+
+        <div class="card-container">
+          <div class="card">
+            <img
+              src="https://www.w3schools.com/w3images/team2.jpg"
+              alt="team2"
+            />
+            <div class="card-info" onclick="showWinner()">
+              <p>John Doe</p>
+              <p>CEO & Founder</p>
+              <p>
+                Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+                sodales pellentesque elementum.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://www.w3schools.com/w3images/team1.jpg"
+              alt="team2"
+            />
+            <div class="card-info">
+              <p>Mike Absra</p>
+              <p>CEO & Founder</p>
+              <p>
+                Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+                sodales pellentesque elementum.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://www.w3schools.com/w3images/team3.jpg"
+              alt="team2"
+            />
+            <div class="card-info">
+              <p>James Erik</p>
+              <p>CEO & Founder</p>
+              <p>
+                Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+                sodales pellentesque elementum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Package section-->
+      <section id="package" class="package">
+        <h2 class="section-title">Packages</h2>
+        <div class="divider"></div>
+        <p>
+          Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure
+        </p>
+        <div class="price-table-container">
+          <div class="price-table">
+            <div>Basic</div>
+            <div>Floorplanning</div>
+            <div>10 hours support</div>
+            <div>Photography</div>
+            <div>20% furniture discount</div>
+            <div>Good deals</div>
+            <div><span>$199</span><span>per room</span></div>
+            <div><button>Sign Up</button></div>
+          </div>
+          <div class="price-table red">
+            <div>Basic</div>
+            <div>Floorplanning</div>
+            <div>10 hours support</div>
+            <div>Photography</div>
+            <div>20% furniture discount</div>
+            <div>Good deals</div>
+            <div><span>$199</span><span>per room</span></div>
+            <div><button>Sign Up</button></div>
+          </div>
+        </div>
+      </section>
+
+      <!--Contact section-->
+      <section id="contact" class="contant">
+        <h2 class="section-title">Packages</h2>
+        <div class="divider"></div>
+        <p>
+          Do you want us to style your home? Fill out the form and fill me in
+          with the details :) We love meeting new people!
+        </p>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" name="name" />
+          <label for="email">Email</label>
+          <input type="email" name="email" />
+          <label for="message">Message</label>
+          <input type="text" name="message" />
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+
+      <div>
+        <i class="fab fa-facebook my-class"></i>
+      </div>
     </div>
   </body>
 </html>
